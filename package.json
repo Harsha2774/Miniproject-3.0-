@@ -1,0 +1,20 @@
+{
+  "name": "realtimechatapplication-main",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/user-attachments/assets/164d0c43-0818-4b11-935b-c133d0c16963)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^19.2.3",
+    "@angular/common": "^19.2.2",
+    "@angular/compiler": "^19.2.2",
+    "@angular/core": "^19.2.2",
+    "@angular/platform-browser": "^19.2.2",
+    "@angular/platform-browser-dynamic": "^19.2.2"
+  }
+}
