@@ -1,0 +1,66 @@
+body {
+  background-image: url('https://miro.medium.com/v2/resize:fit:2000/1*go0r1doBgbxkvFfmxqvbxQ.jpeg'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+}
+
+.chat-box {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.messages {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.messages div {
+  background-color: #e0e0e0;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+input {
+  width: calc(100% - 60px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  width: 50px;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.typing {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}
